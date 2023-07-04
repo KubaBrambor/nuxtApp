@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint --ext .ts,.js,.vue ."
+  },
+  "dependencies": {
+    "@nuxt/typescript-runtime": "latest"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@types/node": "^18",
+    "@nuxt/types": "2.x",
+    "@nuxt/typescript-build": "latest",
+    "nuxt": "^3.6.1"
+  }
+}
